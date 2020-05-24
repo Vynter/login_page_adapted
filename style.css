@@ -35,8 +35,6 @@
 }
 .Log{
     background-color:var(--bg) ;
-    /*width: 390px;
-    height: 300px;*/
     width: 101.5%;
     height: 28%;
     position: relative;
@@ -200,12 +198,11 @@ p{
 #mdp:hover  {
     transform: scale(1.1);
 }
-/******************/
+::placeholder{
+    color: var(--color)
+}
 
 
 button:hover  {
     transform: scale(1.1);
 }
-/*#zz:hover {
-    transform: scale(1.1);
-}*/
