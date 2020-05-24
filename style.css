@@ -76,17 +76,95 @@ h1{
 
 }
 
+button{
+    background-color: var(--bg);
+    border: none;
+    padding: 10px;
+    width: 95px;
+    border-radius: 35px;
+    color: var(--color);
+    font-weight: bold;
+    transition: left 0.2s  ease;
+    transition: transform 0.2s  ease;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+p{
+    font-weight: bold;
+}
+
+
+/***********************/
+
+.name{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-bottom: 40px;
+    
+    
+   
+    
+}
 #id{
     width: 80%;
     border-radius: 50px;
+    box-shadow: 0 0 0 0;
+    height: 35px;
     border:none;
     background-color: var(--bg);
-    height: 35px;
     
     padding: 10px 35px;
     color: var(--color);
     font-weight: bold;
+    transition: transform 0.2s  ease;
+    
+}
+.fa-user{
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    transform: translate(-10px,10%);
+    z-index: 5;
+    transition:  0.2s  ease;
+    
 
+}
+
+.name:hover .fa-user{
+    
+    left: 13%;
+}
+
+#id:hover  {
+    transform: scale(1.1);
+}
+
+
+/***********************/
+
+.passwd{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-bottom: 40px;
+    
+    
+    
 }
 #mdp{
     width: 80%;
@@ -99,39 +177,8 @@ h1{
     padding: 10px 35px;
     color: var(--color);
     font-weight: bold;
-
-}
-button{
-    background-color: var(--bg);
-    border: none;
-    padding: 10px;
-    width: 95px;
-    border-radius: 35px;
-    color: var(--color);
-    font-weight: bold;
-}
-form{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.name ,.passwd{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    margin-bottom: 40px;
-}
-.fa-user{
-    color: #fff;
-    position: absolute;
-    top: 15%;
-    left: 17%;
-    transform: translate(-10px,10%);
+    transition:  0.2s  ease;
+    
 }
 .fa-lock{
     color: #fff;
@@ -139,64 +186,24 @@ form{
     top: 15%;
     left: 17%;
     transform: translate(-10px,10%);
-}
-p{
-    font-weight: bold;
-}
-
-#id:hover {
-    transform: scale(1.05);
-
-    
-}
-#mdp:hover {
-    transform: scale(1.05);
-    
-}
-
-.test{
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    margin-bottom: 40px;
-    
-    
-    
-    transition: 0.5s ease;
-}
-#zz{
-    width: 80%;
-    border-radius: 50px;
-    box-shadow: 0 0 0 0;
-    height: 35px;
-    border:none;
-    background-color: var(--bg);
-    
-    padding: 10px 35px;
-    color: var(--color);
-    font-weight: bold;
-    transition: 0.2s  ease;
-}
-#zzicon{
-    color: #fff;
-    position: absolute;
-    top: 15%;
-    left: 17%;
-    transform: translate(-10px,10%);
     z-index: 5;
-    transition: 0.2s  ease;
+    transition:  0.2s  ease;
+    
 
 }
 
-.test:hover #zzicon{
+.passwd:hover .fa-lock{
     
     left: 13%;
 }
 
-#zz:hover  {
+#mdp:hover  {
+    transform: scale(1.1);
+}
+/******************/
+
+
+button:hover  {
     transform: scale(1.1);
 }
 /*#zz:hover {
