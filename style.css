@@ -154,3 +154,51 @@ p{
     
 }
 
+.test{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-bottom: 40px;
+    
+    
+    
+    transition: 0.5s ease;
+}
+#zz{
+    width: 80%;
+    border-radius: 50px;
+    box-shadow: 0 0 0 0;
+    height: 35px;
+    border:none;
+    background-color: var(--bg);
+    
+    padding: 10px 35px;
+    color: var(--color);
+    font-weight: bold;
+    transition: 0.2s  ease;
+}
+#zzicon{
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    transform: translate(-10px,10%);
+    z-index: 5;
+    transition: 0.2s  ease;
+
+}
+
+.test:hover #zzicon{
+    
+    left: 13%;
+}
+
+#zz:hover  {
+    transform: scale(1.1);
+}
+/*#zz:hover {
+    transform: scale(1.1);
+}*/
