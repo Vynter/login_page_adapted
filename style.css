@@ -9,10 +9,14 @@
     --color:#fff;
 
 }
+
+
+
+
 .contenair{
     background-color:var(--bg) ;
     color:var(--color);
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -206,3 +210,6 @@ p{
 button:hover  {
     transform: scale(1.1);
 }
+
+
+
